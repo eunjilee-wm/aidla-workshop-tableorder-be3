@@ -1,0 +1,43 @@
+spring:
+  application:
+    name: tableorder
+
+  datasource:
+    url: jdbc:h2:mem:tableorder;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    defer-datasource-initialization: true
+    properties:
+      hibernate:
+        format_sql: true
+
+  sql:
+    init:
+      mode: always
+      data-locations: classpath:data.sql
+
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+
+jwt:
+  secret: tableorder-jwt-secret-key-for-development-only-minimum-256-bits-required
+  expiration: 57600000  # 16 hours
+
+file:
+  upload-dir: ./uploads
+
+server:
+  port: 8080

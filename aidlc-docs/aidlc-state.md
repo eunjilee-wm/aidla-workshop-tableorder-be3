@@ -3,10 +3,10 @@
 ## Project Information
 - **Project Type**: Greenfield
 - **Start Date**: 2026-03-20T11:01:26+09:00
-- **Current Stage**: INCEPTION - Workspace Detection
+- **Current Stage**: CONSTRUCTION - Code Generation (Complete)
 
 ## Workspace State
-- **Existing Code**: No
+- **Existing Code**: Yes (Spring Boot application generated)
 - **Reverse Engineering Needed**: No
 - **Workspace Root**: /Users/ieunji/my/aws/aidla-workshop-tableorder-be3
 
@@ -18,13 +18,13 @@
 ## Stage Progress
 - [x] INCEPTION - Workspace Detection (Greenfield detected)
 - [x] INCEPTION - Requirements Analysis
-- [ ] INCEPTION - User Stories
-- [ ] INCEPTION - Workflow Planning
-- [ ] INCEPTION - Application Design
-- [ ] INCEPTION - Units Generation
-- [ ] CONSTRUCTION - Functional Design
-- [ ] CONSTRUCTION - NFR Requirements
-- [ ] CONSTRUCTION - NFR Design
-- [ ] CONSTRUCTION - Infrastructure Design
-- [ ] CONSTRUCTION - Code Generation
+- [x] INCEPTION - User Stories
+- [x] INCEPTION - Workflow Planning
+- [x] INCEPTION - Application Design
+- [ ] INCEPTION - Units Generation (SKIPPED)
+- [x] CONSTRUCTION - Functional Design
+- [ ] CONSTRUCTION - NFR Requirements (SKIPPED)
+- [ ] CONSTRUCTION - NFR Design (SKIPPED)
+- [ ] CONSTRUCTION - Infrastructure Design (SKIPPED)
+- [x] CONSTRUCTION - Code Generation (TDD - 31 tests, all passed)
 - [ ] CONSTRUCTION - Build and Test
